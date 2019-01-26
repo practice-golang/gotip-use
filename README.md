@@ -31,7 +31,7 @@ git clone https://github.com/golang/go.git
 
 ri env:gobin
 
-# 원하는 branch로 체크아웃 - master는 생략해도 됨
+# 원하는 branch로 체크아웃 - master는 체크아웃 안해도 됨
 cd go
 git checkout master
 
