@@ -35,7 +35,7 @@ ri env:gobin
 cd go
 git checkout master
 
-cd go/src
+cd src
 
 $env:goroot_bootstrap=$env:goroot
 
