@@ -3,7 +3,7 @@
 윈도우 파워셸 기준
 
 ## 1. Gotip 사용 - master만 컴파일
-```sh
+```powershell
 # 귀찮으니까 현재폴더/bin을 gotip 실행파일 저장경로로 잡아준다
 $env:gobin=$(get-location).Path+"/bin"
 go get golang.org/dl/gotip
@@ -26,7 +26,7 @@ ri $env:userprofile"/sdk" -Force -Recurse
 ```
 
 ## 2. 직접 컴파일
-```sh
+```powershell
 git clone https://github.com/golang/go.git
 
 ri env:gobin
